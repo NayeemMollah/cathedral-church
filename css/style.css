@@ -1,0 +1,423 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.headerr{
+    min-height: 80vh;
+    background-image: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.9)), url(../images/events-02.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.logo{
+    padding-left: 60px;
+}
+.header-top-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 20px 0;
+    margin: 0 auto;
+}
+
+.menu ul li{
+    display: inline;
+  
+}
+.menu{
+    padding-right: 60px;
+}
+.menu ul li a{
+font-size: 30px;
+color: whitesmoke;
+padding-right: 30px;
+text-decoration: none;
+}
+.menu ul li a:hover{
+    background-color: burlywood;
+}
+#bot{
+    background-color: burlywood;
+    padding: 5px;
+    border-radius: 5px;
+}
+.header-botoom-row{
+    text-align: center;
+    padding-top: 70px;
+}
+.header-botoom-row h1{
+    color: white;
+    font-size: 50px;
+    font-family: "Source Sans 3", serif;
+    font-weight: 500;
+}
+.header-botoom-row p{
+    color: white;
+    font-size: 25px;
+    padding-top: 30px;
+    font-family: "Source Sans 3", serif;
+    font-weight: 400;
+}
+/* end */
+.bookpart-left img{
+    width: 100%;
+}
+.bookpart-left{
+    width: 50%;
+}
+.bookpart-right{
+    padding-top: 60px;
+    padding-left: 50px;
+    width: 50%;
+}
+.bookpart{
+    display: flex;
+    
+}
+.bookpart-right h2{
+    font-size: 35px;
+    font-family: "Source Sans 3", serif;
+}
+.bookpart-right p{
+    font-size: 20px;
+    padding-top: 30px;
+    font-family: "Source Sans 3", serif;
+    font-weight: 400;
+}
+
+/* end */
+
+.consectetur{
+    min-height: 90vh;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../images/bg-img.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.consretetur-top-row{
+   text-align: center;
+   padding-top: 80px;
+
+}
+
+.consretetur-top-row h2{
+    font-size: 40px;
+    font-family: "Source Sans 3", serif;
+    font-weight: 600;
+    color: whitesmoke;
+}
+.consretetur-top-row p{
+    font-size: 20px;
+    font-family: "Source Sans 3", serif;
+    padding-top: 30px;
+    color: whitesmoke;
+}
+
+.consretetur-botoom-row{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 40px;
+    margin-left: 40px;
+    padding-top: 50px;
+}
+.box{
+    padding: 30px;
+    background: whitesmoke;
+    width: 11%;
+    text-align: center;
+    -webkit-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
+}
+.box I{
+    font-size: 30px;
+}
+.box h2{
+    font-size: 15px;
+    font-family: "Source Sans 3", serif;
+    padding-top: 10px;
+}
+.box:hover{
+    color: whitesmoke;
+    background-color: chocolate;
+
+}
+/* end */
+
+.Sermonspart-top-row{
+    text-align: center;
+    padding-top: 60px;
+}
+.Sermonspart-botoom-row{
+    display: flex;
+    justify-content: space-between;
+}
+.Sermonspart-img{
+    width: 49%;
+}
+.Sermonspart-img img{
+    width: 100%;
+}
+.botoom-tmg{
+    width: 49%;
+}
+.botoom-tmg img{
+    width: 100%;
+}
+.Sermonspart-top-row h2{
+    font-size: 30px;
+}
+.Sermonspart-top-row p{
+    font-size: 20px;
+    padding-top: 30px;
+}
+.Sermonspart-botoom-row{
+    padding-top: 40px;
+}
+/* end */
+.bojtesenah{
+    min-height: 70vh;
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../images/pastor-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bojtesenah-part{
+    padding-top: 140px;
+    text-align: center;
+}
+.bojtesenah-part i{
+    color: chocolate;
+    font-size: 30px;
+}
+.bojtesenah-part h2{
+    font-size: 30px;
+    color: white;
+    padding-top: 25px;
+    font-family: "Source Sans 3", serif;
+   font-weight: 400;
+}
+.bojtesenah-part a{
+    text-decoration: none;
+    font-size: 20px;
+    color: chocolate;
+    padding-top: 18px;
+}
+/* end */
+.newspart-top-row{
+    text-align: center;
+    padding-top: 100px;
+}
+.newspart-top-row h1{
+    font-size: 40px;
+    font-family: "Source Sans 3", serif;
+    font-weight: 600;
+}
+.newspart-top-row img{
+    padding-top: 20px;
+}
+.newspart-top-row p{
+font-size: 20px;
+padding-top: 40px;
+}
+.newspart-botoom-left{
+    padding-top: 80px;
+    padding-left: 80px;
+}
+.newspart-botoom-row{
+    display: flex;
+}
+.newspart-botoom-right{
+    padding-top: 180px;
+    padding-left: 40px;
+}
+.newspart-botoom-right h2{
+    font-size: 40px;
+}
+.newspart-botoom-right p{
+    padding-top: 25px;
+    font-size: 15px;
+}
+.newspart-botoom-right a{
+    font-size: 20px;
+    color: burlywood;
+    text-decoration: none;
+    padding-top: 20px;
+}
+/* end */
+.ipsumpart{
+    display: flex;
+}
+.ipsumpart-col-left{
+    padding-top: 200px;
+    padding-left: 80px;
+}
+.ipsumpart-col-right{
+    padding-top: 100px;
+    padding-left: 30px;
+}
+.ipsumpart-col-left h2{
+    font-size: 30px;
+}
+.ipsumpart-col-left p{
+    font-size: 15px;
+    padding-top: 20px;
+}
+.ipsumpart-col-left a{
+    font-size: 20px;
+    padding-top: 30px;
+    text-decoration: none;
+    color: burlywood;
+}
+/* endd */
+.Upcomingpart-top-row{
+    padding-top: 100px;
+    text-align: center;
+}
+.Upcomingpart-top-row h2{
+    font-size: 30px;
+    font-family: "Source Sans 3", serif;
+    font-weight: 700;
+}
+.Upcomingpart-top-row img{
+    padding-top: 10px;
+}
+.Upcomingpart-botoom-row{
+    padding-top: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+.Upcomingpart-top-row p{
+     font-size: 25px;
+     padding-top: 20px;
+}
+.Upcomingpart-botoom-col1{
+    width: 33%;
+}
+.Upcomingpart-botoom-col2{
+    width: 33%;
+}
+.Upcomingpart-botoom-col3{
+    width: 33%;
+}
+.Upcomingpart-botoom-col1 img{
+    width: 100%;
+}
+.Upcomingpart-botoom-col2 img{
+    width: 100%;
+}
+.Upcomingpart-botoom-col3 img{
+    width: 100%;
+}
+/* end */
+.Donation{
+    min-height: 99vh;
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../images/bg-img.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.Donationpart-top-row{
+    text-align: center;
+    padding-top: 50px;
+}
+.Donationpart-top-row h1{
+    font-size: 30px;
+    color: whitesmoke;
+}
+.Donationpart-top-row p{
+    font-size: 20px;
+    color: whitesmoke;
+    padding-top: 30px;
+}
+.Donationpart-botoom-row{
+    display: flex;
+    background: white;
+    justify-content: space-between;
+    margin-left: 60px;
+    margin-right: 60px;
+   margin-top: 50px;
+   padding-top: 20px;
+   padding-left: 20px;
+   padding-right: 20px;
+}
+.Donationpart-botoom-col1 h2{
+    font-size: 25px;
+    padding-top: 15px;
+}
+.Donationpart-botoom-col1 a{
+    padding-top: 15px;
+    text-decoration: none;
+    font-size: 20px;
+    color: burlywood;
+}
+.Donationpart-botoom-col2 h2{
+    font-size: 25px;
+    padding-top: 15px;
+}
+.Donationpart-botoom-col2 a{
+    padding-top: 15px;
+    text-decoration: none;
+    font-size: 20px;
+    color: burlywood;
+}
+.Donationpart-botoom-col3 h2{
+    font-size: 25px;
+    padding-top: 15px;
+}
+.Donationpart-botoom-col3 a{
+    padding-top: 15px;
+    text-decoration: none;
+    font-size: 20px;
+    color: burlywood;
+}
+/* end */
+
+.Supporterpart-top-row{
+    text-align: center;
+    padding-top: 110px;
+}
+.Supporterpart-top-row h2{
+    font-size: 30px;
+}
+.Supporterpart-top-row img{
+    padding-top: 10px;
+}
+.Supporterpart-top-row p{
+    padding-top: 20px;
+    font-size: 20px;
+
+}
+.Supporterpart-botoom-row{
+    display: flex;
+    padding-top: 100px;
+    justify-content: space-between;
+}
+.Supporterpart-botoom-col1{
+    width: 22%;
+    margin-left: 50px;
+}
+.Supporterpart-botoom-col2{
+    width: 22%;
+}
+.Supporterpart-botoom-col3{
+    width: 22%;
+}
+.Supporterpart-botoom-col4{
+    width: 22%;
+}
+.Supporterpart-botoom-col1 img{
+    width: 70%;
+}
+.Supporterpart-botoom-col2 img{
+    width: 70%;
+}
+.Supporterpart-botoom-col3 img{
+    width: 70%;
+}
+.Supporterpart-botoom-col4 img{
+    width: 70%;
+}
+/* end */
